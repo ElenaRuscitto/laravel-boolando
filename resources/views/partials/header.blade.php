@@ -42,9 +42,9 @@ $socialMenu = config('headerMenues.socialMenu');
               <ul class="social-menu">
 
                 @foreach ($socialMenu as $item)
-                <li :key="`s-${index}`">
-                  <a href="{{ $item['link'] }}"> <i class="{{ $item['icon']}}"></i></a>
-                </li>
+                    <li :key="`s-${index}`">
+                    <a href="{{ $item['link'] }}"> <i class="{{ $item['icon']}}"></i></a>
+                    </li>
 
                 @endforeach
               </ul>
