@@ -1,0 +1,44 @@
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: $bgc-footer;
+  }
+
+  .container-footer{
+    color: $c-whitw;
+    max-width: 1380px;
+    margin: 150px auto; //da levare 300px
+  }
+
+  .box{
+    display: flex;
+    justify-content: space-between;
+    // justify-items: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 25px;
+  }
+
+
+  .menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+      a{
+      color: $c-whitw;
+      text-decoration: none;
+      margin-right: 10px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+  }
+
+
+
+  footer .info .menu a{
+    font-size: .8rem;
+  }
