@@ -1,8 +1,19 @@
 
+@php
+
+// inporto da config il menu dell'header
+
+$mainMenu = config('header.mainMenu');
+
+@endphp
+
+
+
 
   <header>
       <div class="container-header ">
-        <div class="row justify-beetween align-center  ">
+        header
+        {{-- <div class="row justify-beetween align-center  ">
           <div class="col ">
             <nav>
               <ul class="main-menu">
@@ -36,7 +47,7 @@
             </nav>
           </div>
 
-        </div>
+        </div> --}}
       </div>
     </header>
 
