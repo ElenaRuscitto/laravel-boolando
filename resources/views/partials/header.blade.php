@@ -22,7 +22,7 @@ $socialMenu = config('headerMenues.socialMenu');
                 @foreach ($mainMenu as $item)
 
                     <li>
-                        <a href="{{ $item['link'] }}"> {{ $item['genere']}}</a>
+                        <a href="{{route($item['name']) }}"> {{ $item['genere']}}</a>
                     </li>
 
                 @endforeach

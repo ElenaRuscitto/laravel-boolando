@@ -4,15 +4,18 @@ return $headerMenues = [
         'mainMenu' => [
             [
                 'genere' => 'Donna',
-                'link' => '#'
+                'link' => '/donna',
+                'name' => 'donna'
             ],
             [
                 'genere' => 'Uomo',
-                'link' => '#'
+                'link' => '/',
+                'name' => 'home'
             ],
             [
                 'genere' => 'Bambini',
-                'link' => '#'
+                'link' => '/bambino',
+                'name' => 'bambino'
             ],
         ],
         'socialMenu' => [
